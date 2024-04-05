@@ -1,0 +1,17 @@
+Script started on 2024-04-05 20:54:36+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="247" LINES="69"]
+]0;c@u1: ~/ECE373[01;32mc@u1[00m:[01;34m~/ECE373[00m$ exit[2Plscd ECE373/ls[Kman gdb[13@sudo apt install[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgdb[Kman gdb[4Pgdbsudo apt install gdb[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pman[C[C[C[Cls[Kcd ECE373/ls[Kexit[Kexit[2Plscd ECE373/ls[Kman gdb[13@sudo apt install[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgdb[Kman gdbnvim typescript ls[Kscript[1Pclear[2Ppwdclearrm typescript [9Pclear[2Ppwdclearscript[4Plsnvim typescript [9Pman gdb[4Pgdbsudo apt install gdb[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pman[C[C[C[Cls[Kcd ECE373/ls[Kexit[Kgcc -g -o test test.c
+[01m[Ktest.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Ktest.c:42:14:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kwaitpid[m[K’ [[01;35m[K-Wimplicit-function-declaration[m[K]
+   42 |   if ((pid = [01;35m[Kwaitpid[m[K(pid, &status, 0)) == -1) {
+      |              [01;35m[K^~~~~~~[m[K
+]0;c@u1: ~/ECE373[01;32mc@u1[00m:[01;34m~/ECE373[00m$ ./test ls -al
+total 32
+drwxrwxr-x 2 c c  4096 Apr  5 20:55 .
+drwxr-xr-x 6 c c  4096 Apr  5 20:44 ..
+-rwxrwxr-x 1 c c 17072 Apr  5 20:55 test
+-rw-rw-r-- 1 c c  1367 Apr  5 20:51 test.c
+-rw-rw-r-- 1 c c     0 Apr  5 20:54 typescript
+Total time elapsed to run 'ls' is 0.001740 seconds.
+]0;c@u1: ~/ECE373[01;32mc@u1[00m:[01;34m~/ECE373[00m$ exit
+
+Script done on 2024-04-05 20:55:15+00:00 [COMMAND_EXIT_CODE="0"]
